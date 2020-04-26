@@ -32,7 +32,15 @@ def filter_acc(l, acc):
     return l
  
 # Returns array of the frequency of labels of a certain label: [["apple", 2], ["orange", 7]]
-
+def get_l(l):
+    out = []
+    final = []
+    for i in range(len(l)):
+        out.append(l[i][0])
+    d = {x: out.count(x) for x in out}
+    for x in d:
+        final.append([x.replace(":", ""), d[x]])
+    return final
  
 # Get's the average accuracy of all the classifications
 def getavg(arg):
