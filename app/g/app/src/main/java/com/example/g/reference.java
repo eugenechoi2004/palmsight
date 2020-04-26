@@ -190,7 +190,7 @@ public class reference extends AppCompatActivity {
             }
         }
     }
-    //yeah this
+
     @Override
     public void onDestroy() {
         super.onDestroy();

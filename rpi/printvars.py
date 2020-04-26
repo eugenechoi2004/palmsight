@@ -1,7 +1,7 @@
 from redis import Redis
 import time
-cli = Redis("localhost")
 
+cli = Redis("localhost")
 cli.set("statex", 0)
 cli.set("statez", 0)
 while(True):
