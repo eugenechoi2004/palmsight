@@ -4,7 +4,7 @@ The PalmSight as a visual aid for the blind. The PalmSight is a glove equipped w
 
 ## Setup
 
-Aside from the AWS Services, below are the other components used in making the PalmSight
+Below are some of the components used in making the PalmSight
 
 Android phone with google play services
 Android Studios
@@ -15,6 +15,7 @@ LSM9DS1
 4 LEDs
 Push button for the rpi
 (optional) portable power bank 
+AWS Machine Learning Configurations
 
 ## Wiring the Raspberry Pi Zero W
 
@@ -71,14 +72,14 @@ cd rpi
 python3 run.py
 ```
 
-Then, on the Ec2 instance
+Then, on the VM run:
 
 ```
 cd VM
 python3 runall.py
 ```
 
-To test on the program on the Ec2 instance, simultaneously run:
+To test on the program on the VM, simultaneously run:
 
 ```
 python3 once.py
