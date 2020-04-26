@@ -180,7 +180,7 @@ def once():
                     print("Total", end - start)
                     done = 1
                     break
-
+# reset text also
 def reset():
     cli.set('confirm', 0)
     cli.set('read', 0)
