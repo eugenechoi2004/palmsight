@@ -1,2 +1,6 @@
 ./darknetgc detector test cfg/combine9k.data cfg/yolo9000.cfg yolo9000.weights
 ./darknetgc detector test cfg/coco.data cfg/yolov3.cfg yolov3.weights
+./darknetgc detector test cfg/combine9k.data cfg/yolo9000.cfg yolo9000.weights
+./darknetgc detector test cfg/coco.data cfg/yolov3.cfg yolov3.weights
+./darknetgc detector test cfg/combine9k.data cfg/yolo9000.cfg yolo9000.weights
+./darknetgc detector test cfg/coco.data cfg/yolov3.cfg yolov3.weights
