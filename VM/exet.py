@@ -50,7 +50,7 @@ def gettext():
 
 init = 0
 prev = 0
-# cli text
+
 while(True):
     init = int(cli.get('read').decode('utf-8'))
     s = time.time()

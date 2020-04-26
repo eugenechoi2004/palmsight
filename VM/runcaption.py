@@ -67,7 +67,6 @@ class PythiaDemo:
     registry.register("coco_text_processor", self.text_processor)
     registry.register("coco_caption_processor", self.caption_processor)
     
-    #caption work
   def _build_pythia_model(self):
     state_dict = torch.load('content/model_data/butd.pth')
     model_config = self.config.model_attributes.butd
