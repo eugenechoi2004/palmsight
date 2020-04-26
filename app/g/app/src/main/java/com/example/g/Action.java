@@ -175,6 +175,7 @@ public class Action extends AppCompatActivity {
                 long collide = (long) dataSnapshot.child("collide").getValue();
                 sentRef = storageRef.child("sent.jpg");
                 long done = (long) dataSnapshot.child("searchdone").getValue();
+                int iiiiiiii = 19;
 
                 if(scan.charAt(scan.length()-1) == ',')
                     scan = scan.substring(scan.length()-2);

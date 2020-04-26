@@ -26,7 +26,7 @@ try:
 except:
 	pass
 
-#get_ipython().run_line_magic('matplotlib', 'inline')
+####get_ipython().run_line_magic('matplotlib', 'inline')
 MODEL_DIR = os.path.join(ROOT_DIR, "logs")
 COCO_MODEL_PATH = os.path.join(ROOT_DIR, "mask_rcnn_coco.h5")
 
