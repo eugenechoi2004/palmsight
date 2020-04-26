@@ -92,6 +92,7 @@ def v9():
 
     init = 0
     prev = 0
+    now =  0
 
     while(True):
         init = int(cli.get('read').decode('utf-8'))
