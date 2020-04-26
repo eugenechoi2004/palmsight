@@ -22,6 +22,7 @@ firebase_admin.initialize_app(cred, {
 
 def v3():
     #run on gpu 0
+    #run on other gpus too
     child = pexpect.spawn('./darknetgch detector test cfg/coco.data cfg/yolov3.cfg yolov3.weights -i 1')
 
     def getoutput(num):
@@ -48,7 +49,7 @@ def v3():
             cli.set('confirm', cint)
             print('v3 time:', time.time() - start)
         prev = init
-
+## run oid
 def oid():
     child = pexpect.spawn('./darknetgch detector test cfg/yolo.data cfg/oid.cfg yolov3-oid.weights -thresh 0.13 -i 1')
 

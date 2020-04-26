@@ -75,6 +75,8 @@ def format_output(r):
 
 init = 0
 prev = 0
+now = 0
+#delete later
 
 while(True):
     init = int(cli.get('read'))

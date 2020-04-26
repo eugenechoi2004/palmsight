@@ -4,7 +4,7 @@ from redis import Redis
 import sys
 from collections import namedtuple
 import json
- 
+# ran in runall.py
 #Sets type rectangle tuple for area intersection
 Rectangle = namedtuple('Rectangle', 'xmin ymin xmax ymax')
 
