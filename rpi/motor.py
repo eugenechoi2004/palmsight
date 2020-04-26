@@ -66,7 +66,7 @@ def anglez():
             initval = 1000
             motor(right, 0)
             motor(left, 0)
-
+###
 def anglex():
     top = GPIO.PWM(11, 100)
     bottom = GPIO.PWM(16, 100)

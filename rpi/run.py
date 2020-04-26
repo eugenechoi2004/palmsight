@@ -26,6 +26,7 @@ def button():
     init = cli.get("count")
     prev = init
     while(True):
+        ###firebase var
         ref = db.reference("status/mode")
         mode = int(ref.get())
         init = cli.get("count")
