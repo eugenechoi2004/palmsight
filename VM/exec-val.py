@@ -5,7 +5,7 @@ import sys
 from collections import namedtuple
 import json
 import argparse
-from ast import literal_eval
+
 
 parser = argparse.ArgumentParser()
 parser.add_argument("y3", nargs='?')
