@@ -21,7 +21,7 @@ Rectangle = namedtuple('Rectangle', 'xmin ymin xmax ymax')
 cpath = os.path.abspath(os.path.dirname(__file__))
 os.chdir(cpath)
 cli = Redis('localhost')
- 
+
 # Return array with filtered accuracy
 def filter_acc(l, acc):
     indexes = []
@@ -356,6 +356,7 @@ def get_output(y3b, y9b, mb, ob):
     else:
         grade("")
         #print("Unable to Classify")
- 
+
+#ok
 # Must be jpg
 get_output(args.y3 != "-1", args.y9 != "-1", args.m != "-1", args.o != "-1")
