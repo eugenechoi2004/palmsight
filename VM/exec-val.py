@@ -149,13 +149,7 @@ def run(acc, model):
         # print('Error on line {}'.format(sys.exc_info()[-1].tb_lineno), type(e).__name__, e)
         return -1
 
-def area(a, b):  
-    dx = min(a.xmax, b.xmax) - max(a.xmin, b.xmin)
-    dy = min(a.ymax, b.ymax) - max(a.ymin, b.ymin)
-    if (dx > 0) and (dy > 0):
-        return dx*dy
-    else:
-        return -1
+
 
 def rectfilter(lower, upper):
     for i in range(len(upper)):
